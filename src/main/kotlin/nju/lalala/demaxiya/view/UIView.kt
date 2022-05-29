@@ -9,6 +9,7 @@ import tornadofx.*
 class UIView() : View() {
     init {
         title = "LifeAssist"
+        // 设定正好一行最少10个元素
         primaryStage.minWidth = 570.0 + 1e-13
         primaryStage.minHeight = 400.0
     }
