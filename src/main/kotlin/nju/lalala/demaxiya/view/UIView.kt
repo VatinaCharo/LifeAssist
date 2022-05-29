@@ -44,6 +44,13 @@ class UIView() : View() {
                         label("item 3")
                         label("item 4")
                         label("item 5")
+                        label("item 6")
+                        label("item 7")
+                        label("item 8")
+                        label("item 9")
+                        label("item 10")
+                        label("item 11")
+                        label("item 12")
                     }
                 }.viewportBoundsProperty().addListener { _, _, bounds ->
                     children.filterIsInstance<FlowPane>().apply {
