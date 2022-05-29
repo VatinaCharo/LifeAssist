@@ -3,7 +3,6 @@ import nju.lalala.demaxiya.view.UIView
 import tornadofx.App
 import tornadofx.launch
 import tornadofx.reloadStylesheetsOnFocus
-import tornadofx.reloadViewsOnFocus
 
 fun main(args: Array<String>) {
     launch<MainApp>(args)
