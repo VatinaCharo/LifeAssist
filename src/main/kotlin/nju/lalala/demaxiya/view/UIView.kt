@@ -6,7 +6,7 @@ import javafx.scene.layout.Priority
 import nju.lalala.demaxiya.css.UICSS
 import tornadofx.*
 
-class UIView() : View() {
+class UIView : View() {
     init {
         title = "LifeAssist"
         // 设定正好一行最少10个元素

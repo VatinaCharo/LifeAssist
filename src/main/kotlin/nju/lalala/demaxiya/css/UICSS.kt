@@ -28,7 +28,7 @@ class UICSS : Stylesheet() {
         }
         label {
             backgroundColor += c("#cccccc")
-            alignment = Pos.CENTER
+            alignment = Pos.BOTTOM_LEFT
             prefWidth = 50.0.px
             prefHeight = 50.0.px
             borderStyle += BorderStrokeStyle.SOLID
